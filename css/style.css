@@ -1,0 +1,137 @@
+
+/************NAV BAR************************/
+.navbar{
+    height: 90px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.logonav{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.navitems{
+    list-style: none;
+   font-weight: bold;
+   cursor: pointer;
+
+}
+.navitems:hover{
+   color:#006D77 ;
+
+}
+ul{
+    margin-top: 25px;
+    padding-left: 15%;
+    display: flex;
+    gap:30px;
+    margin-right: 10%;
+}
+.after::after {
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-size: 65%;
+        font-weight: 900;
+        content: "\f107";
+        margin-left: 0.5rem;
+        transition: 0.3s ease;
+}
+.btnNav{
+    height: 20px;
+    width: auto;
+    background-color: #BEE1E6;
+    border-radius: 10px;
+    /* padding-left: 30px;
+    padding-right:30px; */
+    padding: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0px 5px rgba(175, 174, 174, 0.227) ;
+    cursor: pointer;
+}
+.fa-bars{
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 8%;
+    margin-top: 20px;
+
+}
+/*******************container*****************************/
+.container{
+    background-color: #BEE1E6;
+    height: 700px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+
+    
+}
+.cont1{
+    margin-left: 10%;
+    width: 35%;
+}
+h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.btn1{
+    background-color: #006D77;
+    width: 28%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: small;
+    cursor: pointer;
+
+
+
+}
+
+
+
+.btn3{
+    width: auto;
+    border: 1px solid #006D77;
+    border-radius: 5px;
+    /* padding-left: 30px;
+    padding-right:30px; */
+    padding: 15px;
+   font-size: smaller;
+    margin-top: 15px;
+    box-shadow: 0px 5px rgba(175, 174, 174, 0.227) ;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.btns{
+    display: flex;
+    gap: 10%;
+    
+}
+.cont-img{
+    margin-left: 10%;
+}
+p{
+    color: #88a0a2;
+}
+.btn2{
+    cursor: pointer;
+    width: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    /* padding-left: 30px;
+    padding-right:30px; */
+    padding: 15px;
+   font-size: smaller;
+    margin-top: 15px;
+    box-shadow: 0px 5px rgba(175, 174, 174, 0.227) ;
+    font-family:Arial, Helvetica, sans-serif;
+}
